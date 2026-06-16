@@ -1,0 +1,46 @@
+{
+  "eyebrow_thickness": {
+    "label": "Eyebrow Thickness",
+    "field": "eye_system.eyebrows.thickness_descriptor",
+    "options": [
+      "auto",
+      "thin",
+      "medium thickness",
+      "thick",
+      "very thick",
+      "sparse",
+      "dense and full"
+    ]
+  },
+  "eyebrow_shape": {
+    "label": "Eyebrow Shape",
+    "field": "eye_system.eyebrows.shape_descriptor",
+    "options": [
+      "auto",
+      "straight",
+      "soft arch",
+      "high arch",
+      "rounded",
+      "angled",
+      "flat",
+      "S-shaped",
+      "naturally unruly"
+    ]
+  },
+  "eyebrow_color": {
+    "label": "Eyebrow Color",
+    "field": "eye_system.eyebrows.color_descriptor",
+    "options": [
+      "auto",
+      "black",
+      "dark brown",
+      "medium brown",
+      "light brown",
+      "auburn",
+      "dark blonde",
+      "blonde",
+      "gray",
+      "reddish brown"
+    ]
+  }
+}

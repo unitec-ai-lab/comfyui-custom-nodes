@@ -1,0 +1,13 @@
+.editorconfig
+.github/release-drafter.yml
+.github/workflows/publish_action.yml
+.gitignore
+LICENSE
+README.md
+__init__.py
+docs/text-to-effect.png
+docs/text-to-voice.png
+elevenlabs_text_to_effect.py
+elevenlabs_text_to_speech.py
+pyproject.toml
+requirements.txt

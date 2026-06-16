@@ -1,0 +1,58 @@
+{
+  "lips_volume": {
+    "label": "Lips Volume",
+    "field": "central_system.lips.volume_descriptor",
+    "options": [
+      "auto",
+      "thin lips",
+      "medium volume",
+      "full lips",
+      "very full lips",
+      "naturally plump",
+      "delicate and refined"
+    ]
+  },
+  "cupid_bow": {
+    "label": "Cupid's Bow",
+    "field": "central_system.lips.cupid_bow_descriptor",
+    "options": [
+      "auto",
+      "pronounced cupid's bow",
+      "subtle cupid's bow",
+      "flat cupid's bow",
+      "heart-shaped cupid's bow",
+      "rounded cupid's bow",
+      "sharply defined bow"
+    ]
+  },
+  "lips_proportion": {
+    "label": "Lips Proportion",
+    "field": "central_system.lips.proportion_descriptor",
+    "options": [
+      "auto",
+      "balanced upper and lower",
+      "fuller lower lip",
+      "fuller upper lip",
+      "equal proportion",
+      "slightly fuller lower",
+      "slightly fuller upper"
+    ]
+  },
+  "lips_color": {
+    "label": "Natural Lip Color",
+    "field": "central_system.lips.natural_color_descriptor",
+    "options": [
+      "auto",
+      "soft pink",
+      "rosy pink",
+      "mauve",
+      "dusty rose",
+      "berry toned",
+      "warm peach",
+      "neutral beige",
+      "deep rose",
+      "brownish pink",
+      "coral toned"
+    ]
+  }
+}

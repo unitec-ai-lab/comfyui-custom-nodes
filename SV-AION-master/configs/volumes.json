@@ -1,0 +1,43 @@
+{
+  "cheeks": {
+    "label": "Cheeks",
+    "field": "volumes.cheeks_descriptor",
+    "options": [
+      "auto",
+      "full cheeks",
+      "hollow cheeks",
+      "soft rounded cheeks",
+      "flat cheeks",
+      "naturally plump",
+      "slightly sunken",
+      "apple cheeks",
+      "lean cheeks"
+    ]
+  },
+  "submental": {
+    "label": "Submental Area",
+    "field": "volumes.submental_descriptor",
+    "options": [
+      "auto",
+      "tight submental area",
+      "soft submental area",
+      "defined under-chin",
+      "slight fullness",
+      "clean jawline transition",
+      "natural softness"
+    ]
+  },
+  "face_neck_transition": {
+    "label": "Face-Neck Transition",
+    "field": "volumes.face_neck_transition_descriptor",
+    "options": [
+      "auto",
+      "smooth transition",
+      "defined angle",
+      "soft gradual transition",
+      "sharp jaw-neck angle",
+      "naturally blended",
+      "elongated neck line"
+    ]
+  }
+}

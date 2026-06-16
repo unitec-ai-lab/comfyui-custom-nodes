@@ -1,0 +1,5 @@
+# No additional dependencies required.
+# The notebooklm CLI must be installed separately:
+#   pip install "notebooklm-py[browser]"
+#   playwright install chromium
+#   notebooklm login

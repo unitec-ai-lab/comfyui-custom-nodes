@@ -1,0 +1,34 @@
+[project]
+name = "comfyui-if_gemini"
+description = "nano-banana GEMINI V2 API for ComfyUI to generate images, transcribe audio and summarize videos. Making a separate implementation of my old IF_AI tools for easy installation"
+version = "0.2.0"
+license = { file = "MIT License" }
+dependencies = [
+    # Core dependencies
+    "torch>=2.0.0",
+    "pillow>=10.0.0",
+    "numpy>=1.24.0",
+    
+    # Google Gemini API
+    "google-generativeai",
+    "google-genai",
+    
+    # OpenAI SDK for OpenRouter compatibility
+    "openai>=1.0.0",
+    
+    # Utilities
+    "python-dotenv",
+    "requests>=2.31.0",
+]
+
+[project.urls]
+Repository = "https://github.com/if-ai/ComfyUI-IF_Gemini"
+
+# Used by Comfy Registry https://comfyregistry.org
+[tool.comfy]
+PublisherId = "impactframes"
+DisplayName = "IF_Gemini"
+Icon = "https://impactframes.ai/System/Icons/48x48/if.png" 
+
+
+

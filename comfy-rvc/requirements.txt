@@ -1,0 +1,17 @@
+librosa~=0.10.2
+numpy
+fairseq==0.12.2
+faiss-cpu
+ffmpeg-python
+tqdm
+audioread
+audio-separator[gpu]
+onnxruntime-gpu
+ffmpy
+samplerate
+pyaudio
+spacy
+monotonic_align
+textacy
+pytube
+spacytextblob

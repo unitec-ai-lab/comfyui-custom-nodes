@@ -1,0 +1,92 @@
+{
+  "skin_tone": {
+    "label": "Skin Tone",
+    "field": "skin.tone_descriptor",
+    "options": [
+      "auto",
+      "very fair",
+      "fair",
+      "light",
+      "light-medium",
+      "medium",
+      "medium-tan",
+      "tan",
+      "olive",
+      "deep tan",
+      "brown",
+      "dark brown",
+      "deep brown",
+      "ebony"
+    ]
+  },
+  "skin_undertone": {
+    "label": "Skin Undertone",
+    "field": "skin.undertone_descriptor",
+    "options": [
+      "auto",
+      "cool undertone",
+      "warm undertone",
+      "neutral undertone",
+      "olive undertone",
+      "pink undertone",
+      "golden undertone",
+      "peach undertone",
+      "red undertone"
+    ]
+  },
+  "skin_texture": {
+    "label": "Skin Texture",
+    "field": "skin.texture_descriptor",
+    "options": [
+      "auto",
+      "smooth natural grain",
+      "fine skin texture",
+      "slightly rough texture",
+      "soft velvety texture",
+      "natural skin grain",
+      "matte natural texture"
+    ]
+  },
+  "skin_micro_texture": {
+    "label": "Skin Micro-Texture",
+    "field": "skin.micro_texture_descriptor",
+    "options": [
+      "auto",
+      "visible fine pores",
+      "subtle pore detail",
+      "barely visible pores",
+      "natural pore variation",
+      "light textural detail",
+      "realistic micro detail"
+    ]
+  },
+  "skin_imperfections": {
+    "label": "Skin Imperfections",
+    "field": "skin.imperfections_descriptor",
+    "options": [
+      "auto",
+      "none visible",
+      "light freckles",
+      "subtle blemishes",
+      "faint redness zones",
+      "small moles",
+      "soft under-eye shadows",
+      "light freckles and moles",
+      "minor sun spots",
+      "natural skin variation"
+    ]
+  },
+  "skin_reflection": {
+    "label": "Surface Reflection",
+    "field": "skin.surface_reflection_descriptor",
+    "options": [
+      "auto",
+      "matte natural finish",
+      "soft skin sheen",
+      "subtle light diffusion",
+      "natural dewy glow",
+      "satin finish",
+      "minimal shine"
+    ]
+  }
+}

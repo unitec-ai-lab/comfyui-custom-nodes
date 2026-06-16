@@ -1,0 +1,6 @@
+zhipuai
+Pillow
+numpy
+oss2==2.15.0
+aliyun-python-sdk-core==2.15.0
+six>=1.16.0

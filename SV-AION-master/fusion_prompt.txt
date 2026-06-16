@@ -1,0 +1,25 @@
+Create a hyper-realistic, front-facing head-and-shoulders studio portrait by analyzing and coherently merging the provided facial-part reference images into one consistent new person.
+
+REFERENCE IMAGES PROVIDED:
+{image_labels}
+
+MERGING RULES:
+- Match the references' ethnicity cues, skin undertone, pore texture and freckles.
+- Keep the same anatomical proportions and realistic asymmetries from the references.
+- Smoothly blend the hairline/forehead area, eyes/brows, nose/cheeks, lips, and ears so everything belongs to a single natural face with accurate perspective and matching scale.
+- Do not duplicate any features. Do not create collage seams or mismatched lighting between facial regions.
+- Every facial region must look like it naturally belongs to the same person.
+
+STUDIO CONSTRAINTS:
+{studio_constraints}
+
+REALISM REQUIREMENTS:
+- Crisp editorial realism with subtle micro-contrast.
+- True-to-life skin detail: fine vellus hair, visible pores, soft specular highlights, natural tonal variation.
+- Neutral color grading and clean studio lighting (soft key + gentle fill) to avoid harsh shadows while preserving dimension.
+- 85mm portrait look, shallow-to-moderate depth of field, tack-sharp eyes, natural catchlights, realistic lens behavior.
+- No uncanny blending artifacts, no duplicated features, no mismatched lighting between facial regions, and no collage seams.
+- Make it feel like a single high-end DSLR beauty portrait shot.
+
+{attribute_modifiers}
+{brief_section}

@@ -1,0 +1,5 @@
+[FLUX_PROMPT]
+Close-up portrait of {subject}, {expression}, {features}, {structure}, {hair}, {skin}, {defects}, wearing {clothing}, {constraints}, captured in {style}{brief}.
+
+[ZIMAGE_PROMPT]
+Close-up portrait, {subject}, {expression}, {features}, {structure}, {hair}, {skin}, {defects}, {clothing}, {constraints}, {camera_specs}, {quality}{brief}.

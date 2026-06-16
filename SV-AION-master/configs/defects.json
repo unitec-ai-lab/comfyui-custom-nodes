@@ -1,0 +1,134 @@
+{
+  "wrinkles": {
+    "label": "Wrinkles",
+    "field": "defects.wrinkles_descriptor",
+    "options": [
+      "auto",
+      "none",
+      "fine forehead lines",
+      "crow's feet",
+      "nasolabial folds",
+      "frown lines",
+      "neck wrinkles",
+      "deep forehead furrows",
+      "perioral wrinkles",
+      "under-eye wrinkles",
+      "bunny lines",
+      "marionette lines",
+      "horizontal neck bands"
+    ]
+  },
+  "scars": {
+    "label": "Scars",
+    "field": "defects.scars_descriptor",
+    "options": [
+      "auto",
+      "none",
+      "small facial scar",
+      "acne scarring",
+      "surgical scar",
+      "burn scar",
+      "cleft lip scar",
+      "eyebrow scar",
+      "cheek scar",
+      "forehead scar",
+      "ice-pick acne scars",
+      "boxcar acne scars",
+      "rolling acne scars",
+      "keloid scar"
+    ]
+  },
+  "deformations": {
+    "label": "Deformations",
+    "field": "defects.deformations_descriptor",
+    "options": [
+      "auto",
+      "none",
+      "asymmetric features",
+      "deviated nose",
+      "drooping eyelid",
+      "facial paralysis trace",
+      "cleft palate trace",
+      "micrognathia",
+      "prognathism",
+      "hemifacial microsomia",
+      "facial asymmetry left side",
+      "facial asymmetry right side",
+      "bell's palsy trace"
+    ]
+  },
+  "tone_loss": {
+    "label": "Tone and Volume Loss",
+    "field": "defects.tone_loss_descriptor",
+    "options": [
+      "auto",
+      "none",
+      "mild jowling",
+      "sagging cheeks",
+      "loose neck skin",
+      "drooping brow",
+      "hollow temples",
+      "sunken cheeks",
+      "loose eyelid skin",
+      "loss of jawline definition",
+      "nasolabial fold deepening",
+      "thinning lips from aging",
+      "overall facial volume loss"
+    ]
+  },
+  "skin_marks": {
+    "label": "Skin Marks",
+    "field": "defects.skin_marks_descriptor",
+    "options": [
+      "auto",
+      "none",
+      "post-acne dark spots",
+      "post-acne red marks",
+      "hyperpigmentation patches",
+      "melasma",
+      "age spots",
+      "sun damage spots",
+      "cherry angiomas",
+      "seborrheic keratosis",
+      "port wine stain",
+      "cafe au lait spots",
+      "liver spots"
+    ]
+  },
+  "vitiligo": {
+    "label": "Vitiligo",
+    "field": "defects.vitiligo_descriptor",
+    "options": [
+      "auto",
+      "none",
+      "perioral vitiligo",
+      "periocular vitiligo",
+      "forehead vitiligo",
+      "hands vitiligo",
+      "scattered patches",
+      "segmental vitiligo",
+      "universal vitiligo",
+      "focal vitiligo on cheek",
+      "symmetrical facial vitiligo",
+      "vitiligo on nose bridge"
+    ]
+  },
+  "under_eye": {
+    "label": "Under-Eye Conditions",
+    "field": "defects.under_eye_descriptor",
+    "options": [
+      "auto",
+      "none",
+      "mild dark circles",
+      "deep dark circles",
+      "puffy under-eye bags",
+      "hollow tear troughs",
+      "blue-tinted dark circles",
+      "brown-tinted dark circles",
+      "hereditary dark circles",
+      "malar bags",
+      "festoons",
+      "crepey under-eye skin"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "photo_types": [
+    {
+      "label": "-- Not selected / System inferred --",
+      "fixed_constraints_fragment": "Pure white #FFFFFF background, high-key studio, create a hyper-realistic front-facing head-and-shoulders portrait, centered and symmetrical composition, plain white tank top, minimal natural editorial makeup.",
+      "system_constraints": "Create a hyper-realistic front-facing head-and-shoulders portrait on a pure white background (#FFFFFF), high-key studio lighting, clean and textureless backdrop. The subject is centered and perfectly symmetrical. The full head including hair and the upper shoulders are clearly visible, wearing a plain white tank top (white camisole). Minimal natural editorial makeup, realistic anatomy, no stylization."
+    },
+    {
+      "label": "Studio white background",
+      "fixed_constraints_fragment": "Pure white #FFFFFF background, high-key studio, even diffused lighting, create a hyper-realistic front-facing head-and-shoulders portrait, centered and symmetrical composition, plain white tank top, minimal natural editorial makeup.",
+      "system_constraints": "Create a hyper-realistic front-facing head-and-shoulders portrait on a pure white background (#FFFFFF), high-key studio with even diffused lighting, clean and textureless backdrop. The subject is centered and perfectly symmetrical. The full head including hair and the upper shoulders are clearly visible, wearing a plain white tank top (white camisole). Minimal natural editorial makeup, realistic anatomy, no stylization."
+    },
+    {
+      "label": "Studio neutral grey background",
+      "fixed_constraints_fragment": "Neutral grey background, professional studio lighting, create a hyper-realistic front-facing head-and-shoulders portrait, centered and symmetrical composition, plain dark grey crew-neck top, minimal natural editorial makeup.",
+      "system_constraints": "Create a hyper-realistic front-facing head-and-shoulders portrait on a neutral grey background, professional studio lighting, clean and textureless backdrop. The subject is centered and perfectly symmetrical. The full head including hair and the upper shoulders are clearly visible, wearing a plain dark grey crew-neck top. Minimal natural editorial makeup, realistic anatomy, no stylization."
+    },
+    {
+      "label": "Studio black background",
+      "fixed_constraints_fragment": "Pure black background, dramatic chiaroscuro studio lighting, create a hyper-realistic front-facing head-and-shoulders portrait, centered and symmetrical composition, plain black crew-neck top, minimal natural editorial makeup.",
+      "system_constraints": "Create a hyper-realistic front-facing head-and-shoulders portrait on a pure black background, dramatic chiaroscuro studio lighting, clean and textureless backdrop. The subject is centered and perfectly symmetrical. The full head including hair and the upper shoulders are clearly visible, wearing a plain black crew-neck top. Minimal natural editorial makeup, realistic anatomy, no stylization."
+    },
+    {
+      "label": "Natural light portrait",
+      "fixed_constraints_fragment": "Soft natural daylight, gentle bokeh background, create a hyper-realistic front-facing head-and-shoulders portrait, centered and symmetrical composition, plain white linen shirt, minimal natural editorial makeup.",
+      "system_constraints": "Create a hyper-realistic front-facing head-and-shoulders portrait in soft natural daylight with a gentle bokeh background. The subject is centered and symmetrical. The full head including hair and the upper shoulders are clearly visible, wearing a plain white linen shirt. Minimal natural editorial makeup, realistic anatomy, no stylization."
+    },
+{
+  "label": "Studio 2x2 portrait multi-view grid",
+  "fixed_constraints_fragment": "Pure white #FFFFFF background, high-key studio, 2x2 grid layout, hyper-realistic front-facing head-and-shoulders framing in all panels, full head including hair fully visible, approximately 1/4 of the upper bust visible down to the shoulders, four views: front, back, side profile, three-quarter view, minimal natural editorial makeup.",
+  "system_constraints": "Create a hyper-realistic studio composition on a pure white background (#FFFFFF), high-key even diffused lighting, clean and textureless backdrop. The final image must be arranged in a strict 2x2 grid layout. Each panel shows the same subject in a head-and-shoulders framing: the full head including hair must be fully visible, with approximately one quarter of the upper bust visible down to the shoulders. The four panels must represent four orientations of the same subject: front view, back view, full side profile view, and three-quarter view. The framing scale must be identical in all panels. The subject must maintain identical facial structure, hairstyle, skin texture, outfit, lighting, and proportions across all views. No cropping of the head. Realistic anatomy, no stylization."
+},
+{
+  "label": "Studio character sheet 16:9 structured multi-view layout",
+  "fixed_constraints_fragment": "Pure white #FFFFFF background, high-key studio, 16:9 horizontal layout, structured character sheet layout, left side full body front and full body back views, right side 2x2 portrait grid with head-and-shoulders framing, full head including hair visible and 1/4 upper bust visible to shoulders, front, back, side profile and three-quarter portrait views, minimal natural editorial makeup.",
+  "system_constraints": "Create a hyper-realistic 16:9 horizontal studio character sheet on a pure white background (#FFFFFF), high-key even lighting, clean and textureless backdrop. The layout must be clearly structured into two sections. On the left side: two vertically stacked full-body views of the same subject, one front view and one back view, full height visible from head to feet. On the right side: a strict 2x2 grid of portrait views with head-and-shoulders framing. In each portrait panel the full head including hair must be fully visible, with approximately one quarter of the upper bust visible down to the shoulders. The four portrait orientations must be: front view, back view, full side profile view, and three-quarter view. All panels must depict the exact same subject with identical anatomy, proportions, hairstyle, outfit, lighting, and skin texture. Consistent scale and alignment across the entire layout. No stylization, realistic anatomy."
+}
+  ]
+}

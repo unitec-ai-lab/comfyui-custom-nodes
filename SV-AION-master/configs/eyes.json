@@ -1,0 +1,62 @@
+{
+  "eye_shape": {
+    "label": "Eye Shape",
+    "field": "eye_system.eyes.shape_descriptor",
+    "options": [
+      "auto",
+      "almond-shaped",
+      "round",
+      "hooded",
+      "monolid",
+      "upturned",
+      "downturned",
+      "deep-set",
+      "prominent",
+      "wide-set",
+      "close-set"
+    ]
+  },
+  "eye_size": {
+    "label": "Eye Size",
+    "field": "eye_system.eyes.size_descriptor",
+    "options": [
+      "auto",
+      "small",
+      "medium",
+      "large",
+      "very large",
+      "proportionate"
+    ]
+  },
+  "eye_tilt": {
+    "label": "Eye Tilt",
+    "field": "eye_system.eyes.tilt_descriptor",
+    "options": [
+      "auto",
+      "neutral tilt",
+      "slight upward tilt",
+      "moderate upward tilt",
+      "slight downward tilt",
+      "horizontal"
+    ]
+  },
+  "eye_color": {
+    "label": "Eye Color",
+    "field": "eye_system.eyes.color_descriptor",
+    "options": [
+      "auto",
+      "dark brown",
+      "medium brown",
+      "light brown",
+      "hazel",
+      "amber",
+      "green",
+      "blue-green",
+      "light blue",
+      "deep blue",
+      "gray",
+      "dark gray",
+      "black"
+    ]
+  }
+}

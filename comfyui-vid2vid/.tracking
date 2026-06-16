@@ -1,0 +1,8 @@
+requirements.txt
+LICENSE
+.gitignore
+pyproject.toml
+__init__.py
+README.md
+vid2vid.py
+.github/workflows/publish.yml

@@ -1,0 +1,34 @@
+{
+  "sex": {
+    "label": "Sex",
+    "options": ["auto", "unspecified", "female", "male", "androgynous"]
+  },
+  "ethnicity": {
+    "label": "Ethnicity",
+    "options": [
+      "auto",
+      "unspecified",
+      "East Asian",
+      "South Asian",
+      "Southeast Asian",
+      "Central Asian",
+      "Middle Eastern",
+      "North African",
+      "Horn of Africa",
+      "Sub-Saharan African",
+      "Northern European",
+      "Southern European",
+      "Eastern European",
+      "Western European",
+      "North American",
+      "Latin American",
+      "Mestizo",
+      "Caribbean",
+      "Indigenous American",
+      "Pacific Islander",
+      "Melanesian",
+      "Australian Aboriginal",
+      "Mixed heritage"
+    ]
+  }
+}

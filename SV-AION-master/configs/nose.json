@@ -1,0 +1,47 @@
+{
+  "nose_profile": {
+    "label": "Nose Profile",
+    "field": "central_system.nose.profile_descriptor",
+    "options": [
+      "auto",
+      "straight profile",
+      "slightly concave",
+      "slightly convex",
+      "aquiline",
+      "button nose profile",
+      "flat bridge",
+      "high bridge",
+      "broad bridge",
+      "narrow bridge"
+    ]
+  },
+  "nose_base": {
+    "label": "Nose Base",
+    "field": "central_system.nose.base_descriptor",
+    "options": [
+      "auto",
+      "narrow base",
+      "medium base",
+      "wide base",
+      "flared nostrils",
+      "compact nostrils",
+      "rounded base",
+      "angular base"
+    ]
+  },
+  "nose_tip": {
+    "label": "Nose Tip",
+    "field": "central_system.nose.tip_descriptor",
+    "options": [
+      "auto",
+      "rounded tip",
+      "pointed tip",
+      "bulbous tip",
+      "upturned tip",
+      "downturned tip",
+      "refined tip",
+      "broad tip",
+      "narrow tip"
+    ]
+  }
+}

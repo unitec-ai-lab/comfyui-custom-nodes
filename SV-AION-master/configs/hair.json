@@ -1,0 +1,72 @@
+{
+  "hair_structure": {
+    "label": "Hair Structure",
+    "field": "hair.structure_descriptor",
+    "options": [
+      "auto",
+      "straight",
+      "wavy",
+      "curly",
+      "coily",
+      "kinky",
+      "loosely wavy",
+      "tightly curled",
+      "fine and silky",
+      "coarse and thick"
+    ]
+  },
+  "hair_length": {
+    "label": "Hair Length",
+    "field": "hair.length_descriptor",
+    "options": [
+      "auto",
+      "buzz cut",
+      "very short",
+      "short",
+      "ear length",
+      "chin length",
+      "shoulder length",
+      "mid-back length",
+      "long",
+      "very long",
+      "bald",
+      "shaved sides"
+    ]
+  },
+  "hair_volume": {
+    "label": "Hair Volume",
+    "field": "hair.volume_descriptor",
+    "options": [
+      "auto",
+      "flat and sleek",
+      "low volume",
+      "medium volume",
+      "high volume",
+      "very voluminous",
+      "thick and dense",
+      "thin and fine",
+      "fluffy"
+    ]
+  },
+  "hair_color": {
+    "label": "Hair Color",
+    "field": "hair.color_descriptor",
+    "options": [
+      "auto",
+      "jet black",
+      "dark brown",
+      "medium brown",
+      "light brown",
+      "dark blonde",
+      "golden blonde",
+      "platinum blonde",
+      "strawberry blonde",
+      "auburn",
+      "copper red",
+      "deep red",
+      "silver gray",
+      "white",
+      "salt and pepper"
+    ]
+  }
+}

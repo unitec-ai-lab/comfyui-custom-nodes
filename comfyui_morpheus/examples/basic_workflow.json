@@ -1,0 +1,78 @@
+{
+  "description": "Basic Morpheus · Gemini workflow - Simple image generation with native aspect ratio",
+  "nodes": [
+    {
+      "id": 1,
+      "type": "MorpheusGemini",
+      "pos": [400, 200],
+      "size": [320, 680],
+      "properties": {},
+      "widgets_values": [
+        "A serene Japanese garden with cherry blossoms, koi pond, and traditional architecture",
+        "gemini-3.1-flash-image-preview",
+        1,
+        42,
+        "16:9",
+        "2K",
+        "",
+        "",
+        "",
+        "BLOCK_NONE",
+        0.95,
+        2048
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [1]
+        },
+        {
+          "name": "images_list",
+          "type": "PYOBJECT",
+          "links": []
+        },
+        {
+          "name": "execution_log",
+          "type": "STRING",
+          "links": [2]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "PreviewImage",
+      "pos": [800, 200],
+      "size": [210, 246],
+      "properties": {},
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "ShowText",
+      "pos": [800, 500],
+      "size": [400, 300],
+      "properties": {},
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 2
+        }
+      ]
+    }
+  ],
+  "links": [
+    [1, 1, 0, 2, 0, "IMAGE"],
+    [2, 1, 2, 3, 0, "STRING"]
+  ],
+  "groups": [],
+  "config": {},
+  "version": 0.4
+}

@@ -1,0 +1,64 @@
+{
+  "forehead": {
+    "label": "Forehead",
+    "field": "structure.forehead_descriptor",
+    "options": [
+      "auto",
+      "broad forehead",
+      "narrow forehead",
+      "high forehead",
+      "low forehead",
+      "slightly rounded",
+      "flat forehead",
+      "prominent forehead",
+      "average proportion"
+    ]
+  },
+  "cheekbones": {
+    "label": "Cheekbones",
+    "field": "structure.cheekbones_descriptor",
+    "options": [
+      "auto",
+      "high cheekbones",
+      "low cheekbones",
+      "prominent cheekbones",
+      "subtle cheekbones",
+      "wide-set cheekbones",
+      "angular cheekbones",
+      "soft rounded cheekbones",
+      "flat cheekbones"
+    ]
+  },
+  "jawline": {
+    "label": "Jawline",
+    "field": "structure.jawline_descriptor",
+    "options": [
+      "auto",
+      "strong jawline",
+      "soft jawline",
+      "angular jawline",
+      "rounded jawline",
+      "square jawline",
+      "tapered jawline",
+      "wide jaw",
+      "narrow jaw",
+      "defined jawline"
+    ]
+  },
+  "chin": {
+    "label": "Chin",
+    "field": "structure.chin_descriptor",
+    "options": [
+      "auto",
+      "pointed chin",
+      "rounded chin",
+      "square chin",
+      "narrow chin",
+      "broad chin",
+      "prominent chin",
+      "receding chin",
+      "cleft chin",
+      "soft chin"
+    ]
+  }
+}

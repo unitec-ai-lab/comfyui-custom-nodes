@@ -1,0 +1,8 @@
+# GETSETNODE_PRO - Dependencias
+# PyTorch viene incluido con ComfyUI
+
+# Opcional: para soporte completo de modelos GGUF
+gguf>=0.6.0
+
+# Opcional: para archivos safetensors (normalmente ya instalado con ComfyUI)
+safetensors>=0.4.0

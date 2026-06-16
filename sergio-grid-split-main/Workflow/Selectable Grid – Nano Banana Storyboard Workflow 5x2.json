@@ -1,0 +1,359 @@
+{
+  "id": "372f4968-dc67-477b-a29c-fc3939c515cf",
+  "revision": 0,
+  "last_node_id": 51,
+  "last_link_id": 62,
+  "nodes": [
+    {
+      "id": 25,
+      "type": "LoadImage",
+      "pos": [
+        -893.0383911132812,
+        -1258.874267578125
+      ],
+      "size": [
+        282.6927795410156,
+        433.9468078613281
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            36
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.65",
+        "Node name for S&R": "LoadImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.3"
+        }
+      },
+      "widgets_values": [
+        "5x2.jpeg",
+        "image"
+      ],
+      "color": "#901919",
+      "bgcolor": "#a93232"
+    },
+    {
+      "id": 43,
+      "type": "PreviewImage",
+      "pos": [
+        824.9216918945312,
+        -1259.7685546875
+      ],
+      "size": [
+        861.349365234375,
+        678.4329223632812
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 55
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.65",
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.3"
+        }
+      },
+      "widgets_values": [],
+      "color": "#124c12",
+      "bgcolor": "#2b652b"
+    },
+    {
+      "id": 42,
+      "type": "GS_GridAnalyze",
+      "pos": [
+        -553.66552734375,
+        -1271.1781005859375
+      ],
+      "size": [
+        270,
+        278
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 36
+        }
+      ],
+      "outputs": [
+        {
+          "name": "preview",
+          "type": "IMAGE",
+          "links": [
+            46
+          ]
+        },
+        {
+          "name": "cell_width",
+          "type": "INT",
+          "links": [
+            39
+          ]
+        },
+        {
+          "name": "cell_height",
+          "type": "INT",
+          "links": [
+            40
+          ]
+        },
+        {
+          "name": "rows",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "cols",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "meta",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "GS_GridAnalyze",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.3"
+        }
+      },
+      "widgets_values": [
+        "by_cell_count",
+        5,
+        2,
+        0,
+        0,
+        1
+      ],
+      "color": "#1a5c5c",
+      "bgcolor": "#0d3333"
+    },
+    {
+      "id": 41,
+      "type": "GS_GridSplitByCell",
+      "pos": [
+        -226.98548889160156,
+        -1271.1781005859375
+      ],
+      "size": [
+        270,
+        174
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 46
+        },
+        {
+          "name": "cell_width",
+          "type": "INT",
+          "widget": {
+            "name": "cell_width"
+          },
+          "link": 39
+        },
+        {
+          "name": "cell_height",
+          "type": "INT",
+          "widget": {
+            "name": "cell_height"
+          },
+          "link": 40
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            54
+          ]
+        },
+        {
+          "name": "meta",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "GS_GridSplitByCell",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.3"
+        }
+      },
+      "widgets_values": [
+        100,
+        100,
+        60,
+        "row_major",
+        "yes"
+      ],
+      "color": "#1a5c5c",
+      "bgcolor": "#0d3333"
+    },
+    {
+      "id": 48,
+      "type": "GS_ImageSelector",
+      "pos": [
+        99.69457244873047,
+        -1271.1781005859375
+      ],
+      "size": [
+        668.5470581054688,
+        692.7200927734375
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 54
+        }
+      ],
+      "outputs": [
+        {
+          "name": "selected_images",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": [
+            55
+          ]
+        },
+        {
+          "name": "selected_indices",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "GS_ImageSelector",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.3"
+        }
+      },
+      "widgets_values": [
+        "always_pause"
+      ],
+      "color": "#1a5c5c",
+      "bgcolor": "#0d3333",
+      "isWaitingSelection": true,
+      "currentMode": "always_pause",
+      "isExecuting": true
+    }
+  ],
+  "links": [
+    [
+      36,
+      25,
+      0,
+      42,
+      0,
+      "IMAGE"
+    ],
+    [
+      39,
+      42,
+      1,
+      41,
+      1,
+      "INT"
+    ],
+    [
+      40,
+      42,
+      2,
+      41,
+      2,
+      "INT"
+    ],
+    [
+      46,
+      42,
+      0,
+      41,
+      0,
+      "IMAGE"
+    ],
+    [
+      54,
+      41,
+      0,
+      48,
+      0,
+      "IMAGE"
+    ],
+    [
+      55,
+      48,
+      0,
+      43,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ue_links": [],
+    "links_added_by_ue": [],
+    "ds": {
+      "scale": 1.2839025177495011,
+      "offset": [
+        1072.83268126616,
+        1448.3726684019455
+      ]
+    },
+    "frontendVersion": "1.25.11",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
